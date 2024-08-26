@@ -117,7 +117,7 @@ function getLearnerData(course, ag, submissions) {
           console.log("on time submission", score);
         }
       }
-    });
+    }); 
   });
   return learnerData;
 }
@@ -125,4 +125,4 @@ const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
 console.log(result);
 
 // foreach submissions should stay there, contains the learner id, that id is also the assignment id
-// avg goes in learner submissionsF
+// avg goes in learner submissions
